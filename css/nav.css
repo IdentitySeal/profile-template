@@ -1,0 +1,81 @@
+.navbar {
+    transition: all 0.4s;
+    background: #393939;
+}
+
+.navbar .nav-link {
+    color: #fff;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar .navbar-brand {
+    /* color: #007bff; */
+}
+
+.navbar-toggler {
+    color: #F3A40A;
+}
+
+
+/* Change navbar styling on scroll */
+
+.navbar.active {
+    color: #fff;
+    background: #393939;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.active .nav-link {
+    color: #fff;
+}
+
+.navbar-toggler-right {
+    margin-left: 4rem;
+}
+
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar.active .navbar-brand {
+    color: #fff;
+}
+
+
+/* Change navbar styling on small viewports */
+
+@media (max-width: 991.98px) {
+    .navbar {
+        background: #393939;
+    }
+    .navbar .navbar-brand,
+    .navbar .nav-link {
+        color: #fff;
+        text-align: center;
+        /* padding: 0px !important; */
+    }
+    .oustside {
+        display: none;
+    }
+    div.container.cont-pl-pr {
+        padding-left: 0rem !important;
+        padding-right: 0rem !important;
+    }
+}
+
+@media (min-width: 991.99px) {
+    .oustsid {
+        display: none;
+    }
+}
+
+.text-small {
+    font-size: 0.9rem !important;
+}
